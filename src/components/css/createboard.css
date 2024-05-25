@@ -1,0 +1,82 @@
+/* .create-board-container {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    margin: 20px;
+  }
+  
+  .create-board-form {
+    display: flex;
+    flex-direction: column;
+    width: 300px;
+  }
+  
+  .create-board-form input,
+  .create-board-form textarea {
+    margin-bottom: 10px;
+    padding: 8px;
+    font-size: 16px;
+  }
+  
+  .create-board-form button {
+    padding: 10px;
+    font-size: 16px;
+    background-color: #007bff;
+    color: white;
+    border: none;
+    cursor: pointer;
+  }
+  
+  .create-board-form button:hover {
+    background-color: #0056b3;
+  }
+   */
+
+.create-board-container {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  margin: 20px;
+}
+
+.create-board-form {
+  display: flex;
+  flex-direction: column;
+  width: 350px;
+  background-color: #f5f5f5;
+  border-radius: 8px;
+  padding: 20px;
+  box-shadow: 0 2px 4px rgba(0, 0, 0, 0.1);
+}
+
+.create-board-form input,
+.create-board-form textarea {
+  margin-bottom: 15px;
+  padding: 10px;
+  font-size: 16px;
+  border: 1px solid #ccc;
+  border-radius: 5px;
+}
+
+.create-board-form input:focus,
+.create-board-form textarea:focus {
+  outline: none;
+  border-color: #9300ff;
+}
+
+.create-board-form button {
+  padding: 12px 20px;
+  font-size: 16px;
+  background-color: #c175ff;
+  color: white;
+  border: none;
+  border-radius: 5px;
+  cursor: pointer;
+  transition: background-color 0.3s ease;
+  font-size: 16px;
+  font-weight: bold;
+}
+
+.create-board-form button:hover {
+  background-color: #9300ff;
+}
